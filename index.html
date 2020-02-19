@@ -2,6 +2,7 @@
 
 <html lang="en">
     <head>
+				<link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -9,29 +10,45 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Html Form Project</title>
     </head>
 
     <body>
-        <section class="container">
-            <h1>Create an Intuit account</h1>
-            <p>One account for everything Intuit, including Mint.</p>
-            <a href="#">Learn more</a>
-            <form action="/signup" method="POST">
-                <div class="form-group">
-                    <label for="email"></label>
-                    <input type="text" name="email" id="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone"></label>
-                    <input type="number" name="phone" id="phone" required>
-                </div>
-                <div class="form-group">
-                    <label for="password"></label>
-                    <input type="password" name="password" id="password" required>
-                </div>
-                <button class="btn btn-primary"><i class="fa fa-lock"></i> Create Account</button>
-            </form>
-        </section>
+			<main>
+				<header>
+
+				</header>
+				
+				<section id="intuit-links">
+					<div id="intuit-logo-div">
+						<img id="intuit-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUEAAACdCAMAAAAdWzrjAAAAdVBMVEX///8AAAD19fXx8fHDw8OlpaWurq4PDw8nJyceHh77+/u+vr64uLgSEhIEBASioqLm5uZWVlZMTEwhISF4eHhubm7Jycnb29teXl7r6+uWlpZ/f3/Q0NCysrKTk5Ph4eEzMzNnZ2eKiopBQUE2NjZNTU12dnZ63v/2AAAEFUlEQVR4nO2c7WKiMBAAAT/aghVs1VZRsdr2/R/xtIpsSKL2JLG2M7/uiLCbuVNCsiEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG6K2WKY9yLPQeNePlyNPQd1w2wZfpF6jdrZBb2feY3qhPauK/0wHHmMOgxLEo9RnTAJKzreonZF1MxbVDcMRV/C2FPQ+E4E9flf3wVSoLdv1Hj7o+H9380NhWJw6ilqqkR98RTVDS8/wOBt344jpS++biVzJWrLU1RHrGVfCk9B5QAgXHoK6opE9GXgLeqbiDr3FtUR+870vX6dov7hbvzqLagzPvddefY5tJ3c76O+eQzqjPHrZoC7Tj0PyzqbX+D+4HdMLWyeEVq+Z2a2RK3bHksDwI8nKsZJezbht0YSRxXmw6WvbPpUjlg/0kntMlHrDMorRfrFv5XR4fA5QZ2PSDvVSP5eHBbzlbv5qUyO+beDLnWo9xGewf4UOZXXPZrRgxAsMrrbH1Ke5Gysm3Nl5kyDUz01ZRFk4MagOaNvGXxqUJaRswzGT3pm6sPTtww+/jmD8bs5uUFw+JZh8KhBi55+mB8+j8EjBsepnlZJu/w8BrdYDHb1rLS+YPALi8FHPauKchIfg1ssBsveLMZFVozzzR/71cJi2RkMnjTYK1vikXJ8vyqGwRMGl/LZKJctq90x8cgVtURz1/Aw1phB5fGwJ6JOIj2qM84y+KymsQzNJ5WI5p6huTmDErm+5XVy9yyDtRKAcXg02xiDQc1gXj/pwW43wOAOxWB9KitYicZ2vRGDX0iD+vKrzFZ3gMEt0qDeS1mepRfGYHCLNKiXvkhHeq00BrdIg/o8OQYFZxjUT5KzzBg8abBvOEsMZzCIwQvB4KVg8FIweCkYvJQrGzSU+ovFfQyeNmjYbiLmwDF42uBQbxbztxg0Gwyeq/YPrTETZ2PQYlCuEmjlb7LGCYMWg7KOSdsBJ5enMWgxKBf76luBp3KXKwYtBpUlBLWScyabMGgzqOxAXltbMGg1qKz1yduxusUVg3aDC/GJzc9e52sWvDVf7v+OwZMGtYKXu7WxTBaDNoPq60BqjKrhIgatBtU3Cagcdrk2YzDN85XTLUTXMaj0V2UqHvoaMJgnnV7mdMv2lQwqhSOSUdCowWxR5PPFzJpGA1zLoFqFeOAzaNZgOynel0XL5TtbrmZQRlYvVhl8Nmf0DYOTRZGOirbLNy+l5sRk9wxn1TutIA0ee+tG9lrz95rVLy5uAScyCmQNq6iyWM2zuOv0zQtF0j4gDmfmwyVVY2J4oUx1bnL8VRUvuSh+yMtKxPb/ZBRMRFR57+3m+fRXb+ctkmk+zFfz235TFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPxd/gEopENPoNvWQwAAAABJRU5ErkJggg==" alt="intuit-logo">
+					</div>
+					<a href="https://www.mint.com/" target="_blank"> <img class="img-icons" src="https://digitalasset.intuit.com/IMAGE/A5IlMIj2F/Mint_Lockup_1_.png" alt="mint-icon"></a>
+					<a href="https://quickbooks.intuit.com/" target="_blank"><img class="img-icons" src="data:image/png;base64,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" alt="quickbooks-icon"></a>
+					<a href="https://turbotax.intuit.com/" target="_blank"><img class="img-icons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9xh5FRJlXjd--5L1F6i6B54yBQJY8j7RUejn5z1hElg8LRnkn" alt="turbotax_icon"></a>
+				</section>
+				<section class="container">
+					<h1>Create an Intuit account</h1>
+					<p>One account for everything Intuit, including Mint.</p>
+					<a href="#">Learn more</a>
+					<form action="/signup" method="POST">
+							<div class="form-group">
+									<label for="email"></label>
+									<input type="text" name="email" id="email" required>
+							</div>
+							<div class="form-group">
+									<label for="phone"></label>
+									<input type="number" name="phone" id="phone" required>
+							</div>
+							<div class="form-group">
+									<label for="password"></label>
+									<input type="password" name="password" id="password" required>
+							</div>
+							<button class="btn btn-primary"><i class="fa fa-lock"></i> Create Account</button>
+					</form>
+				</section>
+			</main>
+			
+        
     </body>
 </html>

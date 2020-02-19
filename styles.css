@@ -1,0 +1,22 @@
+main {
+    text-align: center;    
+}
+
+#intuit-logo-div {
+  margin: -20px;   
+}
+
+#intuit-logo {
+    width: 9vw;
+    height: auto;
+}
+
+.img-icons {
+    width: 7vw;
+    height: auto;
+    padding: 1vw;   
+}
+
+header {
+    padding: 30px;
+}
