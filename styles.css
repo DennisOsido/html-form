@@ -20,3 +20,39 @@ main {
 header {
     padding: 30px;
 }
+
+.container {
+    border: 0.5px solid black;
+    width: 400px !important;
+}
+
+#form-heading {
+    font-size: 26px;
+    padding-top: 10%;
+}
+
+#signup-form {
+    padding: 5%;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.btn {
+    margin: 10% !important;
+}
+
+#email, #phone, #password {
+    width: 95%;
+}
+
+#user-agreement {
+    font-size: 14px;
+    font-style: italic;
+}
+
+#section-footer {
+    font-size: 12px;
+    background-color: rgb(221, 220, 220);
+}

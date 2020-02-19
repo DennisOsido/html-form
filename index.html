@@ -28,24 +28,36 @@
 					<a href="https://turbotax.intuit.com/" target="_blank"><img class="img-icons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9xh5FRJlXjd--5L1F6i6B54yBQJY8j7RUejn5z1hElg8LRnkn" alt="turbotax_icon"></a>
 				</section>
 				<section class="container">
-					<h1>Create an Intuit account</h1>
+					<h1 id="form-heading">Create an Intuit account</h1>
 					<p>One account for everything Intuit, including Mint.</p>
-					<a href="#">Learn more</a>
-					<form action="/signup" method="POST">
+					<a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank">Learn more</a>
+					<form id="signup-form" action="/signup" method="POST">
 							<div class="form-group">
-									<label for="email"></label>
+									<label for="email">Email address</label><br>
 									<input type="text" name="email" id="email" required>
 							</div>
 							<div class="form-group">
-									<label for="phone"></label>
-									<input type="number" name="phone" id="phone" required>
+									<label for="phone">Phone (recommended)</label><br>
+                  <input type="number" name="phone" id="phone" required>
+                  <p>Standard call, messaging or data rates may apply.</p>
 							</div>
 							<div class="form-group">
-									<label for="password"></label>
+									<label for="password">Password</label><br>
 									<input type="password" name="password" id="password" required>
 							</div>
 							<button class="btn btn-primary"><i class="fa fa-lock"></i> Create Account</button>
 					</form>
+					<p id="user-agreement">By clicking Create account, you agree to our
+						<a href="https://www.mint.com/terms" target="_blank">Terms</a> and have read and acknowledge our 
+						<a href="https://security.intuit.com/privacy" target="_blank">Privacy Statement</a>.
+					</p>
+					
+					<footer id="section-footer">
+						<p>Invisible reCAPTCHA by Google 
+							<a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy Policy</a> 
+							and <a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms of Use</a>.
+						</p>
+					</footer>
 				</section>
 			</main>
 			
