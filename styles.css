@@ -1,24 +1,29 @@
+header {
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.text-height {
+    line-height: 10px;
+} 
+
 main {
     text-align: center;    
 }
 
 #intuit-logo-div {
-  margin: -20px;   
+  
 }
 
 #intuit-logo {
-    width: 9vw;
+    width: 180px;
     height: auto;
 }
 
 .img-icons {
-    width: 7vw;
+    width: 120px;
     height: auto;
-    padding: 1vw;   
-}
-
-header {
-    padding: 30px;
+    padding: 10px;   
 }
 
 .container {
@@ -39,10 +44,6 @@ header {
     text-align: left;
 }
 
-.btn {
-    margin: 10% !important;
-}
-
 #email, #phone, #password {
     width: 95%;
 }
@@ -55,4 +56,9 @@ header {
 #section-footer {
     font-size: 12px;
     background-color: rgb(221, 220, 220);
+}
+#footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
 }
