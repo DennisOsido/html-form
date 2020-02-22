@@ -8,6 +8,10 @@ It is an HTML form created using pure HTML and CSS.
 - HTML5
 - CSS3
 
+## Live Demo
+
+[Live Demo](https://raw.githack.com/DennisOsido/html-form/master/index.html)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
