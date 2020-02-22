@@ -40,6 +40,13 @@ main {
 
 /* Intuit Logo and Icons */
 
+h2 {
+  color: rgb(235, 235, 235);
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+}
+
 #intuit-logo {
   width: auto;
   height: 45px;
